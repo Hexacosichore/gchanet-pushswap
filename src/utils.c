@@ -6,7 +6,7 @@
 /*   By: gchanet <gchanet@student.42lyon.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/16 16:27:03 by gchanet           #+#    #+#             */
-/*   Updated: 2021/11/25 21:50:04 by gchanet          ###   ########lyon.fr   */
+/*   Updated: 2021/11/28 00:14:24 by gchanet          ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@ void	ps_putbuff(t_ps *ps, char *str, char len)
 {
 	(void) ps;
 	(void) len;
+	ps->op++;
 	ft_putstr(str);
 }
 

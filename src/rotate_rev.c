@@ -6,7 +6,7 @@
 /*   By: gchanet <gchanet@student.42lyon.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/16 15:32:20 by gchanet           #+#    #+#             */
-/*   Updated: 2021/11/23 10:45:41 by gchanet          ###   ########lyon.fr   */
+/*   Updated: 2021/11/27 23:25:36 by gchanet          ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ void	rev_rotate_b(t_ps *ps, int withlog)
 		if (len++ < ps->len_b - 1)
 			ft_swap(&ps->stack_b[len - 1], &ps->stack_b[len]);
 	if (withlog)
-		ps_putbuff(ps, "rra\n", 4);
+		ps_putbuff(ps, "rrb\n", 4);
 }
 
 void	rev_rotate_ab(t_ps *ps)
